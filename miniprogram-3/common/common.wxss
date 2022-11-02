@@ -1,0 +1,4 @@
+/* common/common.wxss */
+view {
+  padding: 5px;
+}

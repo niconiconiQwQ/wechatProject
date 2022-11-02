@@ -1,0 +1,48 @@
+/* pages/home/home.wxss */
+swiper {
+  height: 350rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-list {
+  display: flex;
+  flex-wrap: wrap;
+  border-right: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+.grid-list .grid-item {
+  box-sizing: border-box;
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  height: 200rpx;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+.grid-item image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.grid-item text {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+
+.img-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px;
+}
+
+.img-box image {
+  width: 45%;
+}
