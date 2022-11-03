@@ -1,6 +1,5 @@
 // pages/home/home.js
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -28,7 +27,6 @@ Page({
       url: 'https://www.escook.cn/categories',
       method: 'GET',
       success: (res) => {
-        console.log(res.data)
         this.setData({
           gridList: res.data
         })
