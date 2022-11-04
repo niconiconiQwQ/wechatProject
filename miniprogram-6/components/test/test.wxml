@@ -1,0 +1,2 @@
+<!-- components/test/test.wxml -->
+<button bindtap="onTap">点我</button>

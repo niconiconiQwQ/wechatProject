@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<view>
+  <my-test></my-test>
+</view>
