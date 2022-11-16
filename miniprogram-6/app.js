@@ -1,3 +1,11 @@
+// 在小程序入口文件中(app.js), 只需调用一次 promisifyAll() 方法
+// 即可实现异步 API 的 Promise 化
+import {
+  promisifyAll
+} from 'miniprogram-api-promise';
+const wxp = wx.p = {}
+// promisify all wx's api
+promisifyAll(wx, wxp)
 // app.js
 App({
   onLaunch() {

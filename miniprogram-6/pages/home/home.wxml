@@ -1,4 +1,2 @@
-<!--pages/home/home.wxml-->
-<view>
-  <my-test></my-test>
-</view>
+<!-- pages/home/home.wxml -->
+<my-test></my-test>

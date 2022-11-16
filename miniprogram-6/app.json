@@ -11,11 +11,12 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "custom": true,
     "list": [{
         "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "./image/tabs/home.png",
-        "selectedIconPath": "./image/tabs/home-active.png"
+        "iconPath": "/image/tabs/home.png",
+        "selectedIconPath": "/image/tabs/home-active.png"
       },
       {
         "pagePath": "pages/message/message",
@@ -32,8 +33,10 @@
     ]
   },
   "usingComponents": {
-    "my-test": "/components/test/test"
+    "van-button": "@vant/weapp/button/index",
+    "my-test": "/components/test/test",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

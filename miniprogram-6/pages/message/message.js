@@ -7,12 +7,18 @@ Page({
   data: {
 
   },
-
+  async getInfo() {
+    const res = await wx.p.request({
+      url: 'http://localhost:3000/playlist/catlist',
+      method: 'GET',
+    });
+    console.log(res);
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    this.getInfo();
   },
 
   /**
@@ -25,9 +31,7 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow() {
-
-  },
+  onShow() {},
 
   /**
    * 生命周期函数--监听页面隐藏

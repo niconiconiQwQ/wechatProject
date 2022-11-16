@@ -1,2 +1,4 @@
-<!-- components/test/test.wxml -->
-<button bindtap="onTap">点我</button>
+<!--components/test/test.wxml-->
+<view>{{numA}} + {{numB}} = {{sum}}</view>
+<button bindtap="btnHandle" data-step="{{1}}">步长1</button>
+<button bindtap="btnHandle" data-step="{{-1}}">步长-1</button>
